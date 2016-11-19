@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="au.edu.ozford.lms" version="3.1.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Ozford</name>
+<widget id="au.edu.ozford.moodlemobile" 
+        version="3.1.3"
+        xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:gap="http://phonegap.com/ns/1.0">
+        xmlns:andriod="http://schemas.android.com/apk/res/android"
+  <name>Ozford College</name>
   <description>Ozford's Moodle Mobile app</description>
   <author href="http://www.ozford.edu.au" email="info@ozford.edu.au">Tro Diep</author>
   <content src="index.html"/>
