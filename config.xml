@@ -7,25 +7,8 @@
   <name>Ozford College</name>
   <description>Ozford's Moodle Mobile app</description>
   <author href="http://www.ozford.edu.au" email="info@ozford.edu.au">Tro Diep</author>
-  <content src="index.html"/>
-  <access origin="*"/>
-
-  <allow-navigation href="cdvfile:*" />
-  <allow-navigation href="content:*" />
-  <allow-navigation href="data:*" />
-  <allow-navigation href="*" />
-
-  <allow-intent href="*" />
-
-  <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="BackupWebStorage" value="none"/>
-  <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="3000"/>
-  <preference name="KeyboardDisplayRequiresUserAction" value="false" />
-  <feature name="StatusBar">
-<gap:config-file platform="ios" parent="CFBundleShortVersionString">
+ 
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
         <string>3.1.2</string>
     </gap:config-file>
 
@@ -537,5 +520,7 @@
             <key>NSAllowsArbitraryLoads</key><true/>
         </dict>
     </gap:config-file>
-          
+
 </widget>
+   
+    
